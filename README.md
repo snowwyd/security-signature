@@ -76,3 +76,15 @@ security-signature verify -key public.pem -in document.pdf -sig document.sig
 ```bash
 go test ./...
 ```
+
+## Документация
+
+Полная документация находится в каталоге `docs/`:
+
+- [Спецификация системы](docs/01-specification.md) — техническая спецификация
+- [Техническое задание](docs/02-requirements.md) — ТЗ на разработку
+- [Руководство оператора](docs/03-operator-manual.md) — для пользователей
+- [Руководство системного программиста](docs/04-system-programmer-manual.md) — для администраторов
+- [Руководство программиста](docs/05-programmer-manual.md) — для разработчиков
+
+См. также [README документации](docs/README.md) для обзора всех документов.
